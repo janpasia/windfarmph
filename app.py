@@ -25,8 +25,8 @@ page_titles = [
 
 page = st.sidebar.radio("Page Navigation", page_titles)
 
-for_data_df = pd.read_csv("data/for_data.csv", index_col=0)
-for_model_df = pd.read_csv("data/for_model.csv", index_col=0)
+# for_data_df = pd.read_csv("data/for_data.csv", index_col=0)
+# for_model_df = pd.read_csv("data/for_model.csv", index_col=0)
 
 def insertBlankLines(num_of_blank_lines):
   for i in range(num_of_blank_lines):
